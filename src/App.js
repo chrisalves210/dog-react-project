@@ -1,36 +1,7 @@
 import './App.css';
 import { Link, Routes, Route } from 'react-router-dom';
 import About from './About';
-
-const dogBreeds = [
-  {
-    name: 'English Bulldog',
-    traits: 'Friendly, active sometimes, speaks a lot',
-    size: 'Medium',
-    weight: '50-55 lbs',
-  },
-  {
-    name: 'Staffordshire Bull Terrier',
-    traits: 'Confident, courageous, smart, patient',
-    size: 'Medium',
-    weight: '24-38 lbs',
-  },
-  {
-    name: 'Golden Retriever',
-    traits: 'Intelligent, friendly, devoted',
-    size: 'Large',
-  },
-  {
-    name: 'French Bulldog',
-    traits: 'Adaptable, playful, smart',
-    size: 'Small',
-  },
-  {
-    name: 'Boxer',
-    traits: 'Active, proud, very smart',
-    size: 'Medium / Large',
-  },
-];
+import dogBreeds from './dogBreeds';
 
 function Home() {
   return (
